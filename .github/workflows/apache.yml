@@ -40,7 +40,9 @@ jobs:
         with:
           context: apache
           push: true
-          tags: sundowndev/meganz-webclient:latest,sundowndev/meganz-webclient:apache
+          tags: |
+            ghcr.io/sundowndev/meganz-webclient:latest
+            ghcr.io/sundowndev/meganz-webclient:apache
           platforms: linux/amd64 # ,linux/arm/v7,linux/arm64 - TODO(sundowndev): enable arm support
 
       - name: Display new image digest
