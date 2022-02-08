@@ -1,8 +1,8 @@
 # MEGA Web Client Docker Image
 
-This repository builds an unofficial Docker image for the [mega.nz web client](https://github.com/meganz/webclient). This image can be pulled from Docker hub as `sundowndev/meganz-webclient`.
+This repository builds an unofficial Docker image for the [mega.nz web client](https://github.com/meganz/webclient). This image can be pulled from the GitHub Container Registry.
 
-Image is built nightly and pushed to the following channels:
+Image is built from source every 2 days and then pushed to the following channels:
 
 | Description | Tags | Platforms |
 |-------------|-------|-----------|
@@ -26,7 +26,7 @@ This repository aims to reduce risk of receiving of backdoored JavaScript code f
 The apache image contains a webserver and exposes port 80. To start the container type:
 
 ```shell
-$ docker run -d -p 8080:80 sundowndev/meganz-webclient:apache
+$ docker run -d -p 8080:80 ghcr.io/sundowndev/meganz-webclient:apache
 ```
 
 Now you can access MEGA at http://localhost:8080/ from your host system.
