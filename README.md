@@ -10,7 +10,7 @@ Image is built from source every 2 days and then pushed to the following channel
 
 ## Background
 
-MEGA.nz is a great for cloud storage solution for individuals and businesses. It uses E2EE and their front applications are free and open source. MEGA offers great guarantee that your files are strongly encrypted, and you're the only one that can decrypt those files. However, MEGA users cannot be sure that the official website will always serve open source JavaScript to their browser. Your web browser trusts whatever it receives from MEGA, which means they can grab your master key whenever you visit their site and then use it to decrypt and read your files. You'd never know. [MegaPWN](https://nzkoz.github.io/MegaPWN/) demonstrated that attack vector with a bookmarklet that could lead to leak your MEGA master key.
+MEGA.nz is a great cloud storage solution for individuals and businesses. It uses E2EE and their front application is open source. MEGA offers great guarantee that your files are strongly encrypted, and you're the only one that can decrypt those files. However, MEGA users cannot be sure that the official website will always serve open source JavaScript to their browser. Your web browser trusts whatever it receives from MEGA, which means they can grab your master key whenever you visit their site and then use it to decrypt and read your files. You'd never know. [MegaPWN](https://nzkoz.github.io/MegaPWN/) demonstrated that attack vector with a bookmarklet that could lead to leak your MEGA master key.
 
 > "Technically, we could serve you backdoored JavaScript code that sends your master encryption key back to us." [MEGA](https://mega.nz/blog/new-zealand-storage-node-now-live)
 
