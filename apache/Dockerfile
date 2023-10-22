@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
 RUN apt-get update && \
-    apt-get install git python3 -y
+    apt-get install git python3 apache2 -y
 
 COPY webclient.conf /etc/apache2/sites-available/webclient.conf
 
