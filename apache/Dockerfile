@@ -1,4 +1,4 @@
-FROM php:8.0-apache-bullseye
+FROM ubuntu:22.04
 
 RUN apt-get update && \
     apt-get install git python3 -y
